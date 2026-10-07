@@ -12,7 +12,7 @@ const $bookService = new BookService(
     $errorService,
     $browserService,
     $commonService,
-    promptSync
+    promptSync, null, null
 )
 
 export {
